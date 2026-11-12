@@ -1,0 +1,9 @@
+# Colab supplies torch, IPython, and google.colab in its managed runtime.
+# google.colab integrations are intentionally not installed from this file.
+# Keep the Transformers version aligned with Meeting.ipynb.
+transformers==4.57.6
+accelerate
+bitsandbytes
+huggingface-hub
+torch
+ipython

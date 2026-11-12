@@ -1,0 +1,45 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.secrets/
+credentials*.json
+token*.json
+
+# Python and notebook artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.cache/
+build/
+dist/
+*.egg-info/
+
+# Recordings are local inputs, not repository assets
+*.[mM][pP]3
+*.[wW][aA][vV]
+*.[mM]4[aA]
+*.[mM][pP]4
+*.[fF][lL][aA][cC]
+*.[oO][gG][gG]
+*.[wW][eE][bB][mM]
+*.[aA][aA][cC]
+
+# Downloaded model weights and generated meeting data
+*.safetensors
+*.bin
+*.pt
+*.pth
+models/
+outputs/
+transcripts/
+minutes/
+meeting_minutes.md
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
